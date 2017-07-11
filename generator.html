@@ -30,7 +30,7 @@
 </head>
 <body>
 
-  <!-- Primary Page Layout
+  <!-- Primary Page Layout TURN TO RUBY CALL
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="row">
@@ -54,53 +54,46 @@
 <hr>
 <br>
 
-<div class ="add-pokemon-form">
-  <form id="generator-table" action="/generator" method="POST">
-    <fieldset>
-
-      <label for ="pokemon-name">Enter Valid Pokemon Name:</label>
-        <input type="text" name="pokemon-name" id="pokemon-name" placeholder="Charizard" required />
-      <label for ="pokemon-number">Enter Wild Pokemon Level:</label>
-        <input type="number" name="pokemon-number" id="pokemon-number" placeholder="30" min = 1 required />
-
-      <br>
-      </fieldset>
-    <button name="submit">
-      <strong>Let's Generate!</strong>
-</button>
-
-  </form>
-</div>
-
-
 
   <!-- Dynamic Table DIV
-  –––––––––––––––––––––––––––––––––––––––––––––––––– 
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="Generator Table">
     <div id="row one"> 
-      <div>NAME</div>
-      <div>NUMBER</div>
+    	<h3><strong>#: Pokemon: Level X </strong></h3>
     </div>
-    <div id="row one"> 
-    <div>DESCRIPTION</div>
-    <div>NAME</div>
-    <div>NAME</div>
-    <div>NAME</div>
-    <div>NAME</div>
-    <div>NAME</div>
-    <div>NAME</div>
-    <div>NAME</div>
-    <div>NAME</div>
-    <div>NAME</div>
-    <div>NAME</div>
 
+    <div id="row two end battle info">
+    	<h4>EV Yield   |  Catch Rate  |  Nature </h4>
+    </div>
 
+    <div id="row three type info"> 
+    	<strong>Type:</strong> <br>
+    	Strengths <br>
+    	Weaknesses <br>
+    	Immunities <br>
+    	Resistances
+   </div>
 
+    <div id="row four moves">
+    	<strong>Moves:</strong> <br>
+    	[Level: Move]
+    </div>
+
+    <div id="row five battle stats">
+    		Base  |  EV Bonus |  Nature | Affinity  | Total <br>
+    HP (x2) <br>
+    ATK <br>
+    DEF <br>
+    Sp.ATK <br>
+    Sp.DEF <br>
+    SPD <br>
+    TOTAL: (Level)
+    </div>
 
   </div> 
--->
 
-  <!-- Footer Info
+
+  <!-- Footer Info : TURN TO RUBY CALL
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <footer> 

@@ -44,3 +44,10 @@ fieldset {
   margin: 0;
   padding: 0;
   }
+
+  .Generator.Table {
+    display: block;
+    position: relative;
+    margin: 8px auto;
+    padding-left: 17%;
+  }
