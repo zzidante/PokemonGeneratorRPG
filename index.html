@@ -1,0 +1,114 @@
+                    <!DOCTYPE html>
+                    <html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Pokemon RPG: Wild Pokemon Generator</title>
+  <meta name="Pokemon RPG created by @melodydanteandthemobverse of @DungeonsandDragonairs on Tumblr." content="Web App for generating Wild Pokemon. Version 1.0.">
+  <meta name="Melody Dante" content="Wild Pokemon Generator">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/RPG_Favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+
+    <img src="images/DD_header_trans.png" alt="DD Transparent Header" width=220px align=left>
+
+        <div class="one-half column" style="margin-top: 25%," >
+          <div id="top description">
+            <h4>Pokemon RPG: Wild Pokemon Generator</h4>
+            <p class="page_description">Based on the want of a Tabletop Pokemon RPG Game, <a href="http://www.getskeleton.com">Melody Dante</a> created one over the course of two years with the help of her tabletop poke-friends in <a href="http://www.dungeonsanddragonairs.tumblr.com">Dungeons and Dragonairs</a>.</p>
+            <p>
+              Due to the Tabletop game referencing heavily from the Pokemon Console Base Stats and Gameplay, this generator was created to make the time consuming task of generating new pokemon to fight - a breeze! 
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Form Input
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<hr>
+<br>
+
+<div class ="add-pokemon-form">
+  <form id="generator-table" action="/generate" method="POST">
+    <fieldset>
+
+      <label for ="pokemon-name">Enter Valid Pokemon Name:</label>
+        <input type="text" name="pokemon-name" id="pokemon-name" placeholder="Charizard" required />
+      <label for ="pokemon-number">Enter Wild Pokemon Level:</label>
+        <input type="number" name="pokemon-number" id="pokemon-number" placeholder="30" min = 1 required />
+
+      <br>
+      </fieldset>
+    <button name="submit">
+      <strong>Let's Generate!</strong>
+</button>
+
+  </form>
+</div>
+
+
+
+  <!-- Dynamic Table DIV
+  –––––––––––––––––––––––––––––––––––––––––––––––––– 
+  <div class="Generator Table">
+    <div id="row one"> 
+      <div>NAME</div>
+      <div>NUMBER</div>
+    </div>
+    <div id="row one"> 
+    <div>DESCRIPTION</div>
+    <div>NAME</div>
+    <div>NAME</div>
+    <div>NAME</div>
+    <div>NAME</div>
+    <div>NAME</div>
+    <div>NAME</div>
+    <div>NAME</div>
+    <div>NAME</div>
+    <div>NAME</div>
+    <div>NAME</div>
+
+
+
+
+  </div> 
+-->
+
+  <!-- Footer Info
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <footer> 
+      <hr>
+      Page created by  <a href="http://www.melodydanteandthemobverse.tumblr.com">Melody Dante and The Mobverse</a> for the <a href="www.dungeonsanddragonairs.tumblr.com">Dungeons and Dragonairs Pokemon Tabletop RPG</a>.
+  </footer>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

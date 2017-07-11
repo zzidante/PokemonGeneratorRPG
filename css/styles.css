@@ -1,0 +1,46 @@
+
+/* styles.css */
+
+footer {
+	text-align: center;
+	padding-top: 2em;
+
+}
+
+hr {
+   display: block;
+   position: relative;
+   padding: 0;
+   margin: 8px auto;
+   height: 0;
+   width: 65%;
+   max-height: 0;
+   font-size: 1px;
+   line-height: 1;
+   clear: both;
+   border: none;
+   border-top: 1px solid #aaaaaa;
+   border-bottom: 3px solid #ffffff;
+}
+
+/* PAGE ONE - GENERATOR TABLE */
+
+.add-pokemon-form {
+   display: block;
+   text-align: center;
+
+}
+
+#generator-table {
+  border: solid 2px gray;
+  width: 25%;
+  position: relative;
+  margin: 0 auto;
+
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  }
